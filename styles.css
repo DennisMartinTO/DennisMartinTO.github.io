@@ -48,3 +48,7 @@ footer{padding:24px 0;color:var(--muted);font-size:.9rem;border-top:1px solid va
 .resume h2{font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--line);padding-bottom:4px;margin-top:22px}
 .resume-actions{display:flex;gap:10px;margin-bottom:16px;justify-content:flex-end}
 @media print{.site-header,footer,.resume-actions{display:none!important}.section{padding:0}.resume{border:none;padding:0;max-width:none}body{font-size:11pt}}
+
+.headshot{width:100%;height:auto;border-radius:10px;display:block;margin-bottom:16px;object-fit:cover}
+.about-photo{max-width:340px;float:right;margin:0 0 18px 22px}
+@media(max-width:760px){.about-photo{float:none;max-width:100%;margin:0 0 16px 0}}
