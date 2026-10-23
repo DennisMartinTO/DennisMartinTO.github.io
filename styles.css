@@ -35,7 +35,10 @@ figcaption{color:var(--muted);font-size:.88rem;margin-top:8px}
 .cases{display:grid;gap:22px}.case{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px}.case .org{color:var(--muted);font-weight:700;margin-top:-8px}
 .prose{max-width:780px}.prose p,.prose li{font-size:1.02rem}
 .timeline{list-style:none;padding:0;margin:0;border-left:3px solid var(--line)}
-.timeline li{padding:0 0 26px 22px;position:relative}.timeline li::before{content:"";position:absolute;left:-8px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--teal)}
+.timeline>li{padding:0 0 26px 22px;position:relative}.timeline>li::before{content:"";position:absolute;left:-8px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--teal)}
+.timeline>li ul{list-style:none;padding-left:2px;margin:8px 0 0}
+.timeline>li ul li{position:relative;padding:0 0 7px 20px}
+.timeline>li ul li::before{content:"";position:absolute;left:0;top:9px;width:9px;height:9px;border-radius:50%;background:var(--teal)}
 .when{color:var(--muted);font-weight:700;font-size:.88rem;text-transform:uppercase;letter-spacing:.04em}
 .plain li{margin-bottom:10px}
 .contact{background:var(--navy);color:#fff}.contact h2{color:#fff}
