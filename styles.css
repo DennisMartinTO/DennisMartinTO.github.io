@@ -90,3 +90,8 @@ footer{padding:24px 0;color:var(--muted);font-size:.9rem;border-top:1px solid va
 .pullquote{font-size:1.3rem;line-height:1.45;border-left:4px solid var(--teal);padding:6px 0 6px 18px;margin:18px 0;color:var(--navy)}
 
 .expand-all-btn{padding:8px 16px;border-radius:999px;border:1px solid var(--teal);background:#fff;font-weight:700;cursor:pointer;color:var(--teal);margin-left:auto}
+/* Anti-orphan chip rows: one line on desktop (equal-width chips, compact type), balanced pairs on mobile — never a lone chip on its own row */
+.flow,.journey{flex-wrap:nowrap}
+.flow .chip,.journey .chip{flex:1 1 0;min-width:0;text-align:center;display:flex;flex-direction:column;justify-content:center;padding:9px 10px;font-size:.86rem}
+.flow .arrow,.journey .arrow{flex:0 0 auto;align-self:center}
+@media(max-width:760px){.flow,.journey{flex-wrap:wrap}.flow .chip,.journey .chip{flex:1 1 42%}}
