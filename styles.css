@@ -55,3 +55,15 @@ footer{padding:24px 0;color:var(--muted);font-size:.9rem;border-top:1px solid va
 .headshot{width:100%;height:auto;border-radius:10px;display:block;margin-bottom:16px;object-fit:cover}
 .about-photo{max-width:340px;float:right;margin:0 0 18px 22px}
 @media(max-width:760px){.about-photo{float:none;max-width:100%;margin:0 0 16px 0}}
+
+/* Hero redesign v3: photo right, stats full-width below */
+.hero-grid{align-items:center}
+.photo-card{background:#fff;color:var(--ink);border-radius:var(--radius);padding:14px;max-width:380px;justify-self:end;width:100%}
+.photo-card .hero-photo{height:430px;object-fit:cover;object-position:top center;margin-bottom:10px}
+.photo-caption{margin:2px 4px 4px;color:var(--muted);font-size:.92rem;line-height:1.45}.photo-caption strong{color:var(--navy);font-size:1rem}
+.stats-band{background:#fff;color:var(--ink);border-radius:var(--radius);padding:20px 22px 14px;margin-top:34px}
+.stats-band h2{font-size:1rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+.stats-horizontal{display:grid!important;grid-template-columns:repeat(5,1fr);gap:18px}
+.stats-horizontal li{display:block!important;border-top:3px solid var(--teal)!important;padding-top:10px!important}
+.stats-horizontal strong{display:block;font-size:1.45rem!important;min-width:0!important;margin-bottom:2px}
+@media(max-width:900px){.stats-horizontal{grid-template-columns:repeat(2,1fr)}.photo-card{justify-self:start;max-width:340px}.photo-card .hero-photo{height:380px}}
