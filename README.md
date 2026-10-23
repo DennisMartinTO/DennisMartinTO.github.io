@@ -31,5 +31,5 @@ Edit any `.html` file directly on GitHub with the pencil icon — Pages rebuilds
 - Home: SVG icons, subtle hero dot texture, new "For peers, organizers & collaborators" section (speaking, peer conversations, mentoring)
 - Contact: speaker kit for organizers (bio/headshot/share image/PDF résumé links)
 - `Dennis-Martin-Resume.pdf` — direct one-page PDF download, also linked from Résumé page
-- Analytics: GoatCounter script is installed site-wide with code `dennismartinto`. **ACTIVATION REQUIRED:** Dennis must create a free account at goatcounter.com claiming the site code `dennismartinto` — until then no visits are counted. No cookies are used.
+- Analytics: GoatCounter script is installed site-wide with code `dennismartinto`. The free GoatCounter account was created and email-verified on 2026-10-23, so visits are being counted (dashboard: dennismartinto.goatcounter.com). No cookies are used.
 - Work artefacts: intentionally NONE added — Dennis is checking employer permissions first.

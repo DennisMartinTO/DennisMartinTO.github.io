@@ -95,3 +95,7 @@ footer{padding:24px 0;color:var(--muted);font-size:.9rem;border-top:1px solid va
 .flow .chip,.journey .chip{flex:1 1 0;min-width:0;text-align:center;display:flex;flex-direction:column;justify-content:center;padding:9px 10px;font-size:.86rem}
 .flow .arrow,.journey .arrow{flex:0 0 auto;align-self:center}
 @media(max-width:760px){.flow,.journey{flex-wrap:wrap}.flow .chip,.journey .chip{flex:1 1 42%}}
+
+.about-photo img{width:100%;height:auto;display:block}
+.about-photo figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
+.skyline-banner{margin:0}.skyline-banner img{width:100%;height:auto;display:block;border-radius:12px}.skyline-banner figcaption{font-size:.82rem;color:var(--muted);margin-top:6px}
