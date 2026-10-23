@@ -1,2 +1,6 @@
 document.querySelectorAll('.yr').forEach(function(el){el.textContent=new Date().getFullYear();});
 var y=document.getElementById('y'); if(y) y.textContent=new Date().getFullYear();
+// Work page: category filters
+document.querySelectorAll('.filter-btn').forEach(function(btn){btn.addEventListener('click',function(){document.querySelectorAll('.filter-btn').forEach(function(b){b.classList.remove('active')});btn.classList.add('active');var f=btn.getAttribute('data-filter');document.querySelectorAll('.case').forEach(function(c){c.style.display=(f==='all'||c.getAttribute('data-cat')===f)?'':'none'});});});
+// Work page: per-case expand/collapse (progressive — all content visible without JS)
+document.querySelectorAll('.case').forEach(function(c){var parts=[];c.querySelectorAll(':scope > p, :scope > h4, :scope > ul, :scope > .flow').forEach(function(el){parts.push(el)});if(!parts.length)return;var wrap=document.createElement('div');wrap.className='case-body';parts[0].before(wrap);parts.forEach(function(el){wrap.appendChild(el)});var btn=document.createElement('button');btn.className='case-toggle';btn.textContent='Show less';btn.addEventListener('click',function(){var collapsed=c.classList.toggle('collapsed');btn.textContent=collapsed?'Show more':'Show less';});c.appendChild(btn);});

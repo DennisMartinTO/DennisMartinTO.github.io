@@ -23,3 +23,13 @@ Your existing repo `DennisMartinTO/DennisMartinTO` is your profile README repo �
 
 ## Editing later
 Edit any `.html` file directly on GitHub with the pencil icon — Pages rebuilds in ~1 minute. Keep navigation identical across pages.
+
+## v4 upgrades (Oct 23, 2026)
+- `og-image.jpg` — 1200×630 social share card; og/twitter/canonical meta on every page
+- `sitemap.xml` + `robots.txt` for search engines
+- Work page: category filters (Leadership / Systems / AI & Analytics / EDI), per-case Show more/less, and honest diagrams (LMS migration flow, 3 AI agents, 5 LEADS domains)
+- Home: SVG icons, subtle hero dot texture, new "For peers, organizers & collaborators" section (speaking, peer conversations, mentoring)
+- Contact: speaker kit for organizers (bio/headshot/share image/PDF résumé links)
+- `Dennis-Martin-Resume.pdf` — direct one-page PDF download, also linked from Résumé page
+- Analytics: GoatCounter script is installed site-wide with code `dennismartinto`. **ACTIVATION REQUIRED:** Dennis must create a free account at goatcounter.com claiming the site code `dennismartinto` — until then no visits are counted. No cookies are used.
+- Work artefacts: intentionally NONE added — Dennis is checking employer permissions first.
