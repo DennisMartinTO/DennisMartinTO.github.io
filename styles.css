@@ -99,3 +99,10 @@ footer{padding:24px 0;color:var(--muted);font-size:.9rem;border-top:1px solid va
 .about-photo img{width:100%;height:auto;display:block}
 .about-photo figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
 .skyline-banner{margin:0}.skyline-banner img{width:100%;height:auto;display:block;border-radius:12px}.skyline-banner figcaption{font-size:.82rem;color:var(--muted);margin-top:6px}
+
+.skyline-head{background:url('toronto-skyline.jpg') 62% 18%/cover no-repeat;border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.skyline-head::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.88) 40%,rgba(255,255,255,.28) 66%,rgba(255,255,255,0) 82%)}
+.skyline-head .container{position:relative;z-index:1}
+.skyline-head .lede-dark{max-width:33rem}
+.photo-credit{font-size:.78rem;color:var(--muted);margin-top:14px}
+@media(max-width:760px){.skyline-head::before{background:linear-gradient(90deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.9) 62%,rgba(255,255,255,.45) 100%)}}
